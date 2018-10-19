@@ -1,1 +1,151 @@
 /* You can add global styles to this file, and also import other style files */
+.dropdown-menu{
+  background-color: rgba( 255 , 255, 255, 0.1);
+  width:40% ;
+}
+
+.container{
+max-width: 1650px;
+width: 100%;
+}
+.dropdown-item{
+    padding: 25px;
+   
+}
+.dropdown-item1{
+    padding: 20px;
+    padding-left: 40%;
+}
+body{
+
+    background-image: url("./assets/Image/back.png" );
+    width : auto ;
+    pointer-events: painted;
+  
+  
+ font-family: 'Montserrat' ;
+    
+}
+
+
+.section{
+
+    padding-right:200px;
+}
+
+
+label{
+      
+ font-family: 'Montserrat', sans-serif;
+   color:white ;
+
+ 
+}
+
+.row{
+    direction: rtl ;
+
+   
+}
+
+.careemlogo{
+    border-radius: 50%;
+    width:50px;
+    height: 50px;
+}
+.lblcareemlogo{
+    margin-left: 120px ;
+    color:white
+}
+h3 , p{
+    color: white ;
+    direction: rtl ;
+ 
+}
+p{
+    font-weight: bold;
+    font-size: 30px
+}
+.logo{
+    margin-left: 700px;
+}
+.menu-img{
+
+    margin-left: 800px;
+}
+.btn{
+   
+    border-radius:25px;
+    width: 175px ;
+    height: 30px;
+    margin-left: 0px ;
+    background-color: transparent ;
+    border: 2px solid white ;
+    padding-top: 2px ;
+    color: white ;
+    width: 80%;
+}
+.material-icons{
+  color: white ;
+  font-size:45px; 
+}
+
+.list{
+    background-color: rgba(255, 255,255,0.2 ) ;
+    border :none ;
+    border-radius: 20px;
+    height: 350px;
+    width:300px ;
+    padding:10px
+
+}
+.btnactive{
+    background-color: rgba(89, 216 , 107 ,1 );
+    border-radius: 25px ;
+border:none ;
+color: white ;
+width:105px;
+margin-right: 75px; 
+}
+.btndisactive{
+    background-color: rgba(216, 89 ,89  ,1 );
+    border-radius: 25px ;
+border:none ;
+color: white ;
+width:105px;
+margin-right: 75px; 
+}
+.btnshare{
+    border-radius: 50% ;
+    background-color: white ;
+    border:none ;
+    width: 48px  ;
+    height: 48px ;
+
+
+}
+h2{
+    color:white ;
+    font-weight: bold ;
+
+}
+
+
+.lblcode{ border: 4px dashed white ; 
+    border-radius: 15px ;
+     padding-right: 10px ;
+      margin: 25px;
+   text-align: center;
+      width:60%;
+      height: 45px;
+      
+}
+
+.btnshare .material-icons{
+ font-size: 33px;
+ font-weight: bold ;
+    padding-left: 2px;
+        color :rgba( 244 , 207, 72, 1.0) ;
+        line-height: unset
+}
+
